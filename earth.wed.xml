@@ -40,11 +40,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="1900"/>
-                <sel id="2113"/>
-                <sel id="3327"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
             <sources/>
@@ -59,9 +55,8 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="3552"/>
-                <child id="2357"/>
                 <child id="5"/>
+                <child id="2357"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -15998,6 +15993,7 @@
                 <child id="1605"/>
                 <child id="1604"/>
                 <child id="1603"/>
+                <child id="3552"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Terminal Gate Plane Parking"/>
         </object>
@@ -16115,326 +16111,14 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="2400"/>
-                <child id="2394"/>
-                <child id="2388"/>
-                <child id="2382"/>
-                <child id="2376"/>
-                <child id="2370"/>
+                <child id="3585"/>
+                <child id="3579"/>
+                <child id="3573"/>
+                <child id="3567"/>
+                <child id="3561"/>
+                <child id="3555"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Orthotiles"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2370" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2371"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile0-3.tif"/>
-            <draped_orthophoto resource="textures\tile0-3.tif"/>
-        </object>
-        <object class="WED_Ring" id="2371" parent_id="2370">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2375"/>
-                <child id="2374"/>
-                <child id="2373"/>
-                <child id="2372"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2372" parent_id="2371">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.180219897" longitude="-96.598548017"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2373" parent_id="2371">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.190183688" longitude="-96.598548017"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2374" parent_id="2371">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.190183688" longitude="-96.588584226"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2375" parent_id="2371">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.180219897" longitude="-96.588584226"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2376" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2377"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile0-4.tif"/>
-            <draped_orthophoto resource="textures\tile0-4.tif"/>
-        </object>
-        <object class="WED_Ring" id="2377" parent_id="2376">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2381"/>
-                <child id="2380"/>
-                <child id="2379"/>
-                <child id="2378"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2378" parent_id="2377">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.180219897" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2379" parent_id="2377">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.190183688" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2380" parent_id="2377">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.190183688" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2381" parent_id="2377">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.180219897" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2382" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2383"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile1-3.tif"/>
-            <draped_orthophoto resource="textures\tile1-3.tif"/>
-        </object>
-        <object class="WED_Ring" id="2383" parent_id="2382">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2387"/>
-                <child id="2386"/>
-                <child id="2385"/>
-                <child id="2384"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2384" parent_id="2383">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.170256107" longitude="-96.598550037"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2385" parent_id="2383">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.180219897" longitude="-96.598550037"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2386" parent_id="2383">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.180219897" longitude="-96.588586247"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2387" parent_id="2383">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.170256107" longitude="-96.588586247"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2388" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2389"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile1-4.tif"/>
-            <draped_orthophoto resource="textures\tile1-4.tif"/>
-        </object>
-        <object class="WED_Ring" id="2389" parent_id="2388">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2393"/>
-                <child id="2392"/>
-                <child id="2391"/>
-                <child id="2390"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2390" parent_id="2389">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.170256107" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2391" parent_id="2389">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.180219897" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2392" parent_id="2389">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.180219897" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2393" parent_id="2389">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.170256107" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2394" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2395"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile2-3.tif"/>
-            <draped_orthophoto resource="textures\tile2-3.tif"/>
-        </object>
-        <object class="WED_Ring" id="2395" parent_id="2394">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2399"/>
-                <child id="2398"/>
-                <child id="2397"/>
-                <child id="2396"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2396" parent_id="2395">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.160292316" longitude="-96.598548017"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2397" parent_id="2395">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.170256107" longitude="-96.598548017"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2398" parent_id="2395">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.170256107" longitude="-96.588584226"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2399" parent_id="2395">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.160292316" longitude="-96.588584226"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2400" parent_id="2357">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2401"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="tile2-4.tif"/>
-            <draped_orthophoto resource="textures\tile2-4.tif"/>
-        </object>
-        <object class="WED_Ring" id="2401" parent_id="2400">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2405"/>
-                <child id="2404"/>
-                <child id="2403"/>
-                <child id="2402"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureNode" id="2402" parent_id="2401">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="33.160292316" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2403" parent_id="2401">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="33.170256107" longitude="-96.588584226"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2404" parent_id="2401">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="33.170256107" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="2405" parent_id="2401">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="33.160292316" longitude="-96.578620436"/>
-            <texture_node s="1.0000" t="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="2407" parent_id="2154">
             <sources/>
@@ -24509,7 +24193,7 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="33.177456231" longitude="-96.592310872" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
-        <object class="WED_ObjPlacement" id="3552" parent_id="4">
+        <object class="WED_ObjPlacement" id="3552" parent_id="2166">
             <sources/>
             <viewers/>
             <children/>
@@ -24533,15 +24217,327 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="33.176548270" longitude="-96.592324502" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
+        <object class="WED_DrapedOrthophoto" id="3555" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3556"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile0-3.tif"/>
+            <draped_orthophoto resource="textures\tile0-3.tif"/>
+        </object>
+        <object class="WED_Ring" id="3556" parent_id="3555">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3560"/>
+                <child id="3559"/>
+                <child id="3558"/>
+                <child id="3557"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3557" parent_id="3556">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.180219897" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3558" parent_id="3556">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.190183688" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3559" parent_id="3556">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.190183688" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3560" parent_id="3556">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.180219897" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="3561" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3562"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile0-4.tif"/>
+            <draped_orthophoto resource="textures\tile0-4.tif"/>
+        </object>
+        <object class="WED_Ring" id="3562" parent_id="3561">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3566"/>
+                <child id="3565"/>
+                <child id="3564"/>
+                <child id="3563"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3563" parent_id="3562">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.180219897" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3564" parent_id="3562">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.190183688" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3565" parent_id="3562">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.190183688" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3566" parent_id="3562">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.180219897" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="3567" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3568"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile1-3.tif"/>
+            <draped_orthophoto resource="textures\tile1-3.tif"/>
+        </object>
+        <object class="WED_Ring" id="3568" parent_id="3567">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3572"/>
+                <child id="3571"/>
+                <child id="3570"/>
+                <child id="3569"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3569" parent_id="3568">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.170256107" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3570" parent_id="3568">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.180219897" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3571" parent_id="3568">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.180219897" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3572" parent_id="3568">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.170256107" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="3573" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3574"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile1-4.tif"/>
+            <draped_orthophoto resource="textures\tile1-4.tif"/>
+        </object>
+        <object class="WED_Ring" id="3574" parent_id="3573">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3578"/>
+                <child id="3577"/>
+                <child id="3576"/>
+                <child id="3575"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3575" parent_id="3574">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.170256107" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3576" parent_id="3574">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.180219897" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3577" parent_id="3574">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.180219897" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3578" parent_id="3574">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.170256107" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="3579" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3580"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile2-3.tif"/>
+            <draped_orthophoto resource="textures\tile2-3.tif"/>
+        </object>
+        <object class="WED_Ring" id="3580" parent_id="3579">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3584"/>
+                <child id="3583"/>
+                <child id="3582"/>
+                <child id="3581"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3581" parent_id="3580">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.160292316" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3582" parent_id="3580">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.170256107" longitude="-96.598548017"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3583" parent_id="3580">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.170256107" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3584" parent_id="3580">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.160292316" longitude="-96.588584226"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="3585" parent_id="2357">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3586"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tile2-4.tif"/>
+            <draped_orthophoto resource="textures\tile2-4.tif"/>
+        </object>
+        <object class="WED_Ring" id="3586" parent_id="3585">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="3590"/>
+                <child id="3589"/>
+                <child id="3588"/>
+                <child id="3587"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="3587" parent_id="3586">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="33.160292316" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3588" parent_id="3586">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="33.170256107" longitude="-96.588584226"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3589" parent_id="3586">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="33.170256107" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="3590" parent_id="3586">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="33.160292316" longitude="-96.578620436"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
+            <item value="5"/>
             <item value="9"/>
             <item value="11"/>
             <item value="758"/>
             <item value="1512"/>
             <item value="1515"/>
-            <item value="1549"/>
             <item value="1554"/>
             <item value="1557"/>
             <item value="1561"/>
@@ -24549,6 +24545,8 @@
             <item value="2153"/>
             <item value="2158"/>
             <item value="2159"/>
+            <item value="2160"/>
+            <item value="2161"/>
             <item value="2162"/>
             <item value="2163"/>
             <item value="2164"/>
@@ -24559,21 +24557,19 @@
             <item value="2173"/>
             <item value="2174"/>
             <item value="2175"/>
-            <item value="2357"/>
             <item value="3192"/>
-            <item value="3506"/>
         </pref>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-96.573786"/>
-        <pref name="map/north" value="33.190141"/>
+        <pref name="map/east" value="-96.592351"/>
+        <pref name="map/north" value="33.183093"/>
         <pref name="map/obj_density" value="6"/>
-        <pref name="map/pavement_alpha" value="4"/>
+        <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="33.157007"/>
+        <pref name="map/south" value="33.176863"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-96.605776"/>
+        <pref name="map/west" value="-96.598368"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -24644,10 +24640,10 @@
         <pref name="window/height" value="1037"/>
         <pref name="window/main_split" value="384"/>
         <pref name="window/main_split2" value="1290"/>
-        <pref name="window/prev_split" value="563"/>
-        <pref name="window/prop_split" value="603"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-3848"/>
+        <pref name="window/prev_split" value="583"/>
+        <pref name="window/prop_split" value="623"/>
+        <pref name="window/width" value="1800"/>
+        <pref name="window/x_loc" value="112"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
 </doc>
